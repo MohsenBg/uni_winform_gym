@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TableLayoutPanelContainer.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TableLayoutPanelContainer.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="ColumnUserRowNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnUserRowNum.HeaderText" xml:space="preserve">
+    <value>ردیف</value>
+  </data>
+  <data name="ColumnUserRowNum.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="ColumnUserFirstName.HeaderText" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="ColumnUserFirstName.Width" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="ColumnUserLastName.HeaderText" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="ColumnUserLastName.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="ColumnUserBirthdate.HeaderText" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="ColumnUserBirthdate.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="ColumnUserPhone.HeaderText" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="ColumnUserPhone.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="ColumnUserNationId.HeaderText" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="ColumnUserNationId.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="ColumnUserAddress.HeaderText" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <metadata name="ColumnUserEdit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnUserEdit.HeaderText" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="ColumnUserEdit.Width" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <metadata name="ColumnUserDelete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnUserDelete.HeaderText" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ColumnUserDelete.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <metadata name="UserBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>14, 15</value>
+  </metadata>
+  <data name="DataGridViewUser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="DataGridViewUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 153</value>
+  </data>
+  <data name="DataGridViewUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>872, 368</value>
+  </data>
+  <data name="DataGridViewUser.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewUser.Name" xml:space="preserve">
+    <value>DataGridViewUser</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewUser.Parent" xml:space="preserve">
+    <value>TableLayoutPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewUser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="NationLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="NationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 12</value>
+  </data>
+  <data name="NationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="NationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NationLabel.Text" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="&gt;&gt;NationLabel.Name" xml:space="preserve">
+    <value>NationLabel</value>
+  </data>
+  <data name="&gt;&gt;NationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NationLabel.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;NationLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FirstNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="FirstNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FirstNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 12</value>
+  </data>
+  <data name="FirstNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 15</value>
+  </data>
+  <data name="FirstNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FirstNameLabel.Text" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Name" xml:space="preserve">
+    <value>FirstNameLabel</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;FirstNameLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LastNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 12</value>
+  </data>
+  <data name="LastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 15</value>
+  </data>
+  <data name="LastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LastNameLabel.Text" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Name" xml:space="preserve">
+    <value>LastNameLabel</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;LastNameLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PhoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="PhoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PhoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PhoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>840, 62</value>
+  </data>
+  <data name="PhoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 15</value>
+  </data>
+  <data name="PhoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="PhoneLabel.Text" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.Name" xml:space="preserve">
+    <value>PhoneLabel</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;PhoneLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BirthDateLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="BirthDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BirthDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BirthDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 62</value>
+  </data>
+  <data name="BirthDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="BirthDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BirthDateLabel.Text" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="&gt;&gt;BirthDateLabel.Name" xml:space="preserve">
+    <value>BirthDateLabel</value>
+  </data>
+  <data name="&gt;&gt;BirthDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BirthDateLabel.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BirthDateLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AddressLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="AddressLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AddressLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddressLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>835, 112</value>
+  </data>
+  <data name="AddressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="AddressLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="AddressLabel.Text" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="&gt;&gt;AddressLabel.Name" xml:space="preserve">
+    <value>AddressLabel</value>
+  </data>
+  <data name="&gt;&gt;AddressLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddressLabel.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AddressLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NationIdTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="NationIdTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="NationIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 7</value>
+  </data>
+  <data name="NationIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="NationIdTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NationIdTextBox.Name" xml:space="preserve">
+    <value>NationIdTextBox</value>
+  </data>
+  <data name="&gt;&gt;NationIdTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NationIdTextBox.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;NationIdTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FirstNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="FirstNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="FirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 7</value>
+  </data>
+  <data name="FirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="FirstNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTextBox.Name" xml:space="preserve">
+    <value>FirstNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTextBox.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;FirstNameTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LastNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="LastNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="LastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 7</value>
+  </data>
+  <data name="LastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="LastNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LastNameTextBox.Name" xml:space="preserve">
+    <value>LastNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;LastNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastNameTextBox.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;LastNameTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PhoneTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="PhoneTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="PhoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 57</value>
+  </data>
+  <data name="PhoneTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="PhoneTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;PhoneTextBox.Name" xml:space="preserve">
+    <value>PhoneTextBox</value>
+  </data>
+  <data name="&gt;&gt;PhoneTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PhoneTextBox.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;PhoneTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BirthDateTimePicker.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="BirthDateTimePicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="BirthDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 56</value>
+  </data>
+  <data name="BirthDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 27</value>
+  </data>
+  <data name="BirthDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BirthDateTimePicker.Text" xml:space="preserve">
+    <value>Sunday, August 4, 2024</value>
+  </data>
+  <data name="&gt;&gt;BirthDateTimePicker.Name" xml:space="preserve">
+    <value>BirthDateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;BirthDateTimePicker.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;BirthDateTimePicker.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BirthDateTimePicker.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AddressTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="AddressTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="AddressTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 107</value>
+  </data>
+  <data name="AddressTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 25</value>
+  </data>
+  <data name="AddressTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;AddressTextBox.Name" xml:space="preserve">
+    <value>AddressTextBox</value>
+  </data>
+  <data name="&gt;&gt;AddressTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddressTextBox.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AddressTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="UserPageSubmitButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UserPageSubmitButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="UserPageSubmitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="UserPageSubmitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 134</value>
+  </data>
+  <data name="UserPageSubmitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="UserPageSubmitButton.Text" xml:space="preserve">
+    <value> ثبت اطلاعات</value>
+  </data>
+  <data name="&gt;&gt;UserPageSubmitButton.Name" xml:space="preserve">
+    <value>UserPageSubmitButton</value>
+  </data>
+  <data name="&gt;&gt;UserPageSubmitButton.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;UserPageSubmitButton.Parent" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;UserPageSubmitButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TopTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="TopTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="TopTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TopTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>872, 142</value>
+  </data>
+  <data name="TopTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TopTableLayoutPanel.Name" xml:space="preserve">
+    <value>TopTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;TopTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopTableLayoutPanel.Parent" xml:space="preserve">
+    <value>TableLayoutPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;TopTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TopTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="NationLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FirstNameLabel" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="LastNameLabel" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="PhoneLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BirthDateLabel" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="AddressLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="NationIdTextBox" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="FirstNameTextBox" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="LastNameTextBox" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="PhoneTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BirthDateTimePicker" Row="2" RowSpan="1" Column="4" ColumnSpan="3" /&gt;&lt;Control Name="AddressTextBox" Row="4" RowSpan="1" Column="1" ColumnSpan="6" /&gt;&lt;Control Name="UserPageSubmitButton" Row="0" RowSpan="5" Column="8" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Absolute,170,Absolute,15,Absolute,60,Absolute,170,Absolute,15,Absolute,85,Absolute,170,Absolute,50" /&gt;&lt;Rows Styles="Absolute,40,Absolute,10,Absolute,40,Absolute,10,Absolute,40,Absolute,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanelContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanelContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TableLayoutPanelContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="TableLayoutPanelContainer.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TableLayoutPanelContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="TableLayoutPanelContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelContainer.Name" xml:space="preserve">
+    <value>TableLayoutPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelContainer.Parent" xml:space="preserve">
+    <value>PageHeaderUsers</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanelContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanelContainer.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="DataGridViewUser" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TopTableLayoutPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,20" /&gt;&lt;Rows Styles="Percent,28.380953,Percent,71.61905,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="PageHeaderUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="PageHeaderUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="PageHeaderUsers.Text" xml:space="preserve">
+    <value>مدیریت مشخصات کابران</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderUsers.Name" xml:space="preserve">
+    <value>PageHeaderUsers</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderUsers.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderUsers.Parent" xml:space="preserve">
+    <value>PageView</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderUsers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ColumnSubRowNum.HeaderText" xml:space="preserve">
+    <value>ردیف</value>
+  </data>
+  <data name="ColumnSubRowNum.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="ColumnSubFirstName.HeaderText" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="ColumnSubBirthdate.HeaderText" xml:space="preserve">
+    <value>نام خانوداگی</value>
+  </data>
+  <data name="ColumnSubPhone.HeaderText" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="ColumnSubNationId.HeaderText" xml:space="preserve">
+    <value>تعداد جلسات</value>
+  </data>
+  <data name="ColumnSubSessionCount.HeaderText" xml:space="preserve">
+    <value>تاریخ اتمام</value>
+  </data>
+  <metadata name="ColumnSubStatus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnSubStatus.HeaderText" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <metadata name="ColumnSubEdit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewCellStyle8.NullValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAALVJREFUOE+lkrENwjAURDObp/ASpCY1qUJLdgBKUoYFPAMwAAQEadweOku2guwY
+        G4onfZ3vv9+4APAXwTAHN2itkYMnUEpBCJEEu7OC3XaP13MMwreooFyU6PsjukPnLTPjGztRAcssNs3a
+        LXNmxjlJQM6nC9pNa+Bs82TBfXigWlYGzlkCu8zLZCr5KmCxXtUfV6dZVCClNNdu18EtW5jxjZ1ZwfSz
+        xAgKQt81hif4lWCYDoo36LISoP/H0rIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ColumnSubEdit.HeaderText" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="ColumnSubEdit.Width" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <metadata name="SubsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>163, 18</value>
+  </metadata>
+  <data name="DataGridViewSubs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DataGridViewSubs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DataGridViewSubs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="DataGridViewSubs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewSubs.Name" xml:space="preserve">
+    <value>DataGridViewSubs</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewSubs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewSubs.Parent" xml:space="preserve">
+    <value>PageHeaderSubs</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewSubs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PageHeaderSubs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="PageHeaderSubs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="PageHeaderSubs.Text" xml:space="preserve">
+    <value>مدیریت شارژ کابران</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderSubs.Name" xml:space="preserve">
+    <value>PageHeaderSubs</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderSubs.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderSubs.Parent" xml:space="preserve">
+    <value>PageView</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderSubs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageView.AccessibleName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>ردیف</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="actionTimeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>زمان</value>
+  </data>
+  <data name="actionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>عملیات</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn9.HeaderText" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="nationIdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <metadata name="AttendanceBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>478, 23</value>
+  </metadata>
+  <data name="DataGridViewAttendance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DataGridViewAttendance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DataGridViewAttendance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="DataGridViewAttendance.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewAttendance.Name" xml:space="preserve">
+    <value>DataGridViewAttendance</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewAttendance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewAttendance.Parent" xml:space="preserve">
+    <value>PageHeaderAttendance</value>
+  </data>
+  <data name="&gt;&gt;DataGridViewAttendance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PageHeaderAttendance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="PageHeaderAttendance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="PageHeaderAttendance.Text" xml:space="preserve">
+    <value>لیست ورود و خروج</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderAttendance.Name" xml:space="preserve">
+    <value>PageHeaderAttendance</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderAttendance.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderAttendance.Parent" xml:space="preserve">
+    <value>PageView</value>
+  </data>
+  <data name="&gt;&gt;PageHeaderAttendance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutDebugPage.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ComboBoxUsers.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ComboBoxUsers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="ComboBoxUsers.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ComboBoxUsers.ItemHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ComboBoxUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 53</value>
+  </data>
+  <data name="ComboBoxUsers.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ComboBoxUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 31</value>
+  </data>
+  <data name="ComboBoxUsers.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxUsers.Name" xml:space="preserve">
+    <value>ComboBoxUsers</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxUsers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxUsers.Parent" xml:space="preserve">
+    <value>TableLayoutDebugPage</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxUsers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TestButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TestButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 124</value>
+  </data>
+  <data name="TestButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 38</value>
+  </data>
+  <data name="TestButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TestButton.Text" xml:space="preserve">
+    <value>تست</value>
+  </data>
+  <data name="&gt;&gt;TestButton.Name" xml:space="preserve">
+    <value>TestButton</value>
+  </data>
+  <data name="&gt;&gt;TestButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TestButton.Parent" xml:space="preserve">
+    <value>TableLayoutDebugPage</value>
+  </data>
+  <data name="&gt;&gt;TestButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DebugTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="DebugTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt</value>
+  </data>
+  <data name="DebugTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 3</value>
+  </data>
+  <data name="DebugTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 41</value>
+  </data>
+  <data name="DebugTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DebugTitle.Text" xml:space="preserve">
+    <value>دیباگ مود</value>
+  </data>
+  <data name="DebugTitle.TextAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;DebugTitle.Name" xml:space="preserve">
+    <value>DebugTitle</value>
+  </data>
+  <data name="&gt;&gt;DebugTitle.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadLabel, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;DebugTitle.Parent" xml:space="preserve">
+    <value>TableLayoutDebugPage</value>
+  </data>
+  <data name="&gt;&gt;DebugTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TableLayoutDebugPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutDebugPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TableLayoutDebugPage.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TableLayoutDebugPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="TableLayoutDebugPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutDebugPage.Name" xml:space="preserve">
+    <value>TableLayoutDebugPage</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutDebugPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutDebugPage.Parent" xml:space="preserve">
+    <value>DebugPage</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutDebugPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutDebugPage.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ComboBoxUsers" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TestButton" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DebugTitle" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,50,Absolute,71,Absolute,108" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="DebugPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="DebugPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 525</value>
+  </data>
+  <data name="DebugPage.Text" xml:space="preserve">
+    <value>دیباگ مود</value>
+  </data>
+  <data name="&gt;&gt;DebugPage.Name" xml:space="preserve">
+    <value>DebugPage</value>
+  </data>
+  <data name="&gt;&gt;DebugPage.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;DebugPage.Parent" xml:space="preserve">
+    <value>PageView</value>
+  </data>
+  <data name="&gt;&gt;DebugPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PageView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PageView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PageView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 567</value>
+  </data>
+  <data name="PageView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PageView.Name" xml:space="preserve">
+    <value>PageView</value>
+  </data>
+  <data name="&gt;&gt;PageView.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;PageView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PageView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="UserErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>320, 20</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>892, 567</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/eUAD/3lAE/95QKf/eUGz/3lCt/99R2fzZ
+        SvLlsRr92JsA/ticAfTYnAHc2ZwBsNmdAm/angMr3KIIBNugBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/eUAD/3lAD/95QN//eUJf/3lDf/95Q+//f
+        Uf/92kv/6LYg/9icAf/YmwD/2JsA/9ibAP/YmwD/2JsA/NibAOHZnAGa2Z0DOdyhCATboAYAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/eUAD/3lAA/95QGv/eUIn/3lDq/95Q///e
+        UP//31H//dpL/+e2IP/YmwH/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwDr2ZwBjNqe
+        BBvYmwAA36cOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/3lAA/95QAP/eUDX/3lDC/95Q/v/e
+        UP//3lD//99R//3aS//ntiD/2JsB/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ib
+        AP/YmwD+2JwBxNmdAzfRjwAA3aMKAAAAAAAAAAAAAAAAAAAAAAAAAAAA/95QAP/eUAD/3lBB/95Q2f/e
+        UP//3lD//95Q///fUf/92kv/57Yg/9ibAf/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ib
+        AP/YmwD/2JsA/9ibAP/YmwD/2JsB2tmdA0PUlQAA3KIJAAAAAAAAAAAAAAAAAP/eUAD/3lAA/95QNf/e
+        UNj/3lD//95Q///eUP//31H//dpL/+e2IP/YmwH/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ib
+        AP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JwB2tmdAzjYmwAA3qUMAAAAAAAAAAAA/95QAP/e
+        UBr/3lDB/95Q///eUP//3lD//99R//3aS//ntiD/2JsB/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ib
+        AP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JwBw9qeBBvZnQMAAAAAAP/e
+        UAD/3lAC/95Qif/eUP//3lD//95Q///fUf/92kv/57Ug/9ibAf/YmwD/2JsA/9ibAP/YmwD/2JsA/9ib
+        AP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2ZwBi9+m
+        DQPboAYA/95QAP/eUDj/3lDp/95Q///eUP//31H//NpL/+i2H//anAH/2pwA/9qcAP/ZmwD/2JsA/9ib
+        AP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/ZmwD/2pwA/9qcAP/anAD/2ZwA/9ibAP/YmwD/2JsA/9ib
+        AP/YmwDq2Z0DOdmcAgD/3lAD/95Ql//eUP//3lD//99R//3aS//oth//sYYX/5J0KP+TdSj/lHYn/8OQ
+        DP/ZnAD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2ZwA/7+LCP+GZxr/hGYa/4NlGv+pfg7/2ZsA/9ib
+        AP/YmwD/2JsA/9ibAP/ZnAGZ36cOA//eUCr/3lDf/95Q///fUf/920v/6bYf/9udAP+LcCz/S01R/01O
+        UP9QT07/roQY/9qcAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9ibAP/bnQD/pnwQ/zQ0M/8xMjT/LjA1/3xh
+        Hf/cnQD/2pwA/9qcAP/YmwD/2JsA/9ibAODangMs/95Qbf/eUPv/31H/+9lM/9SpJf+/iwj/wIsH/4Fq
+        L/9NTlD/T09P/1JQTv+vhBj/2pwA/9ibAP/YmwD/2JsA/9ibAP/YmwD/2JsA/9udAP+nfA//NjUy/zMz
+        M/8xMjT/cFkf/72JBf+8iAX/wowE/9eaAP/YmwD/2JsA/NmdAm//3lCt/95R//3aS//gsSL/ZFIk/0E8
+        Lv9DPS7/SkdA/09PUP9PT0//UlBO/6+EGP/anAD/2JsA/9ibAP/YmwD/2JsA/9ibAP/YmwD/250A/6d8
+        D/82NTL/MzMz/zMzM/8yLyj/MCob/y4oG/9WQxX/0JYB/9ibAP/YmwD/2ZwBr//eUNn92kz/6Lci/9CX
+        Bf9XSij/MDE0/zIyM/9CQkP/T09P/09PT/9SUE7/r4Ua/9qdAv/YnAP/2JwD/9icA//YnAP/2JwD/9ic
+        A//bngL/p30R/zY1Mv8zMzP/MzMz/ykpKv8dHR7/Ghse/0c5GP/PlgT/2ZwD/9ibAf/YnAHb/95O8vzi
+        f//z363/6dal/15ZTv8wMTH/MzMz/0NDQ/9PT0//T09P/1JSUf/Bs4//9eCt//Leq//y3qv/79uo/9jE
+        kv/VwY//1cGP/9jDkf+llnP/NjY1/zMzM/8zMzP/Kioq/x4eHv8cHBz/R0M3/8y5iv/WwpH/161E/9ib
+        APT/3U39/+2h///////19fX/YWFh/zAwMP8zMzP/Q0ND/09PT/9PT0//UlJS/8rKyv//////////////
+        ///6+vr/2Nnc/9PU1//T1Nf/1tfa/6Okpv82Njb/MzMz/zMzM/8qKir/Hh4e/xwcG/9HR0f/ysvO/9TV
+        2v/Wt2f/2JoA/v/dTf3/7aH///////X19f9hYWH/MDAw/zMzM/9DQ0P/T09P/09PT/9SUlL/ysrK////
+        //////////////r6+v/X2Nr/0tPV/9LT1f/V1tj/oqOl/zY2Nv8zMzP/MzMz/yoqKv8eHh7/HBwb/0dH
+        R//Ky87/09Xa/9a3Z//lsBb9/95O8v/ohv//9cf/9eu+/2FeVP8wMDH/MzMz/0NDQ/9PT0//T09P/1JS
+        Uf/Bs4//9eCt//Leq//y3qr/8uCt/+XZq//i16n/4tep/+Xaq/+upoX/NjY1/zMzM/8zMzP/Kioq/x4e
+        Hv8cHBz/R0M3/8y5if/XxZT/6cxo//zYR/L/3lDZ/95R///fUv/11lD/YFk6/y8wM/8yMjP/QkJD/09P
+        T/9PT0//UlBO/6+FGv/anQL/2JsC/9uhCf/yxzb//95S///eUv//3lL//+FT/8KqSP83NjP/MzMz/zMz
+        M/8pKSr/HR0e/xobHv9HORf/0ZkI/+/DMf/+3lD//95Q2f/eUK3/3lD//95Q//bXT/9vZjz/Q0E2/0ZD
+        Nv9LSkT/T09P/09PT/9SUE7/r4QY/9qcAP/boAf/8cc0///eUP//3lD//95Q///eUP//4VD/wqpH/zc2
+        M/8zMzP/MzMz/zIvKP8wKhv/Likc/1lKHv/mvC///95P///eUP//3lCs/95Qbf/eUPv/3lD//t1Q/+fK
+        Tf/gxEz/4cVM/4+DTv9NTU//T09P/1JQTv+vhBf/3aEF//HHNP//3lD//95Q///eUP//3lD//95Q///h
+        UP/Cqkf/NzYz/zMzM/8xMjT/cFke/76KBf/Npij/5MZJ//3cT///3lD//95Q+//eUGz/3lAq/95Q3//e
+        UP//3lD//+BQ///gUP//4VD/nI5P/0lLT/9MTU//Tk5N/7GJHv/0yDP//95Q///eUP//3lD//95Q///e
+        UP//3lD//+FQ/8GqR/80NDP/MDEz/y0vNP98Yh7/7bsj//7dTf//4FD//95Q///eUP//3lDe/95QKv/e
+        UAP/3lCX/95Q///eUP//3lD//95Q///fUP/Otk//pZVP/6aWT/+nlk7/379E///fT///3lD//95Q///e
+        UP//3lD//95Q///eUP//31D/4MRL/5mJQf+Xh0H/lYZB/8GmPv/+3Ez//95Q///eUP//3lD//95Q///e
+        UJf/3lAD/95QAP/eUDj/3lDp/95Q///eUP//3lD//95Q///fUP//4FD//+BQ///gUP//31D//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUP//31D//+BQ///gUP//4FD//99Q///eUP//3lD//95Q///e
+        UP//3lDp/95QOP/eUAD/3lAA/95QAv/eUIn/3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUIr/3lAC/95QAAAAAAD/3lAA/95QGv/eUMH/3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lDB/95QGv/eUAAAAAAAAAAAAP/eUAD/3lAA/95QNv/eUNn/3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q2f/eUDb/3lAA/95QAAAAAAAAAAAAAAAAAP/eUAD/3lAA/95QQf/e
+        UNn/3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUNn/3lBB/95QAP/eUAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/e
+        UAD/3lAA/95QNf/eUML/3lD+/95Q///eUP//3lD//95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUP7/3lDC/95QNf/eUAD/3lAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP/eUAD/3lAA/95QGv/eUIn/3lDq/95Q///eUP//3lD//95Q///eUP//3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUP//3lDq/95Qif/eUBr/3lAA/95QAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/3lAA/95QA//eUDf/3lCX/95Q3//eUPv/3lD//95Q///e
+        UP//3lD//95Q///eUP//3lD//95Q///eUPv/3lDg/95QmP/eUDf/3lAD/95QAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/95QAP/eUAT/3lAp/95Qbf/e
+        UK3/3lDZ/95Q8//eUP3/3lD9/95Q8//eUNr/3lCt/95Qbf/eUCr/3lAE/95QAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/4AB//4AAH/8AAA/+AAAH/AAAA/gAAAHwAAAA4AAAAGAAAABAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAA
+        AAPgAAAH8AAAD/gAAB/8AAA//gAAf/+AAf8=
+</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>سامانه مدیریت باشگاه</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserRowNum.Name" xml:space="preserve">
+    <value>ColumnUserRowNum</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserRowNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserFirstName.Name" xml:space="preserve">
+    <value>ColumnUserFirstName</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserLastName.Name" xml:space="preserve">
+    <value>ColumnUserLastName</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserBirthdate.Name" xml:space="preserve">
+    <value>ColumnUserBirthdate</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserBirthdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserPhone.Name" xml:space="preserve">
+    <value>ColumnUserPhone</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserNationId.Name" xml:space="preserve">
+    <value>ColumnUserNationId</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserNationId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserAddress.Name" xml:space="preserve">
+    <value>ColumnUserAddress</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserEdit.Name" xml:space="preserve">
+    <value>ColumnUserEdit</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserDelete.Name" xml:space="preserve">
+    <value>ColumnUserDelete</value>
+  </data>
+  <data name="&gt;&gt;ColumnUserDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserBindingSource.Name" xml:space="preserve">
+    <value>UserBindingSource</value>
+  </data>
+  <data name="&gt;&gt;UserBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubRowNum.Name" xml:space="preserve">
+    <value>ColumnSubRowNum</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubRowNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubFirstName.Name" xml:space="preserve">
+    <value>ColumnSubFirstName</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubBirthdate.Name" xml:space="preserve">
+    <value>ColumnSubBirthdate</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubBirthdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubPhone.Name" xml:space="preserve">
+    <value>ColumnSubPhone</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubNationId.Name" xml:space="preserve">
+    <value>ColumnSubNationId</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubNationId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubSessionCount.Name" xml:space="preserve">
+    <value>ColumnSubSessionCount</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubSessionCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubStatus.Name" xml:space="preserve">
+    <value>ColumnSubStatus</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubEdit.Name" xml:space="preserve">
+    <value>ColumnSubEdit</value>
+  </data>
+  <data name="&gt;&gt;ColumnSubEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubsBindingSource.Name" xml:space="preserve">
+    <value>SubsBindingSource</value>
+  </data>
+  <data name="&gt;&gt;SubsBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actionTimeDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>actionTimeDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;actionTimeDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>actionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;actionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn9</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nationIdDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>nationIdDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;nationIdDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AttendanceBindingSource.Name" xml:space="preserve">
+    <value>AttendanceBindingSource</value>
+  </data>
+  <data name="&gt;&gt;AttendanceBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserErrorProvider.Name" xml:space="preserve">
+    <value>UserErrorProvider</value>
+  </data>
+  <data name="&gt;&gt;UserErrorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+</root>
